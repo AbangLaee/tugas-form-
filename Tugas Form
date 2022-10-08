@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tambahkan falidasi dutugas folm sebelumnya </title>
+</head>
+<body>
+    <h1>FORM PENDATAAN</h1>
+
+    <form>
+        <fieldset>
+            <label for="usernama"> <b>Username </b> </label>
+            <td>:</td> 
+            <input type="email" 
+           autofocus autocomplete="off" placeholder="masukan email" name="username"required>
+        </fieldset>
+
+        <fieldset>
+            <label for="pass"> <b>Password</b> </label>
+            <td>:</td> 
+            <input type="password" autofocus autocomplete="off" placeholder="masukan password" name="pass" required>
+        </fieldset> 
+
+        <fieldset> 
+            <label for="pass"><b>Age</b></label>
+            <td>:</td> 
+            <input type="number" autofocus autocomplete="off" placeholder="masukan angka" min="1" require>
+        </fieldset> 
+
+        <fieldset> 
+            <label for="usernama"> <b>Employe ID</b></label>
+            <input type="text" autofocus autocomplete="off" placeholder="masukan employe ID" 
+            pattern="[A-Z]{2}[0-1]{4}=" 
+            type="time" 
+            placeholder="MASUKAN EMPpoye ID" 
+            name="empid" 
+            required title="masukan 2 huruf diikuti oleh 4 angka ">
+        </fieldset>
+
+        <input type="submit" name="login">
+    </form>
+</body>
+</html>
