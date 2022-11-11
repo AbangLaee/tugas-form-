@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTS Pemrograman Web </title>
+    <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous"
+    />
+
+    <link 
+    rel="stylesheet" 
+    href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+    <nav 
+    class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Laisu Tabuni</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse text-right" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                
+              <li class="nav-item">
+                <a class="nav-link" href="#Home">Home </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Pendidikan">Pendidikan </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Jadwal">jadwal kuliah</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#aktivitas">Aktivitas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portofolio">Portofolio</a>
+              </li>
+          </div>
+        </div>
+    </nav>
+
+
+    <div class="container-flud banner">
+        <div class="container text-center">
+            <h4 class="display-6">HI WELCOME TO MY WEB</h4>
+            <a href="#Home">
+                <button type="button" class="btn btn-danger btn-lg"> cek home saya disini</button>
+            </a>
+    </div>
+    </div>
+
+
+        <div class="container home bg-primary ms-auto">
+            <h3 class="text-center" id="home">Welcome to my Home  </h3>
+            <img src="lae.jpg" alt="#Home" class="rounded-circle" width="350" height="350" style="border: 3px solid rgb(210, 245, 255);">
+
+            <div class="mt-4 p-4 bg-dark text-white rounded">
+                <h6 class="display-6 text-center">Halo Sebelumnya Perknelkan </h6>
+                <h5 > Nama Saya Laisu Tabuni_Dengan Nim_201931248_Jurusan S1 Teknik Informatika, Fakultas Telematika Energi</h5>
+            <p >Saya Adalah Mahasiswa Aktif salah kampus swasta di jakarta, kampusnya, INSTITUT TEKNOLOGI PERUSAHAAN LISTRIK NEGARA 
+                Dan ini adalah website Projact UTS Pemrograman WEB SAYA, pelajari lebih lanjut tentang "saya" dengan mengklik tombol merah dibawa yang bertuliskan Home saya
+            </p>      
+            </div>
+</div> 
+
+
+    <div class="container-fluid pendidikan bg-warning pt-5 pb-5">
+        <div class="container text-center">
+            <h4 class="display-5" id="Pendidikan">Riwyat pendidikan</h4>
+            <h3> pendidikan Formal dan Non Formal</h3>
+            <div class="container-fluid mt-3">
+                <div class="container mt-3">          
+                    <table class="table table-dark table-hover">
+                      <thead>
+                        <tr>
+                          <th>No </th>
+                          <th>TAHUN </th>
+                          <th>INSTANSI/SEKOLAH</th>
+                          <th>PERANAN </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>1. </td>
+                          <td>2007 - 2013</td>
+                          <td>SD INPRES MBUA </td>
+                          <td> Siswa SD </td>
+                        </tr>
+                        <tr>
+                          <td>2. </td>
+                          <td>2013-2016</td>
+                          <td>SMP YPK WAMENA </td>
+                          <td> Siswa SMP </td>
+                        </tr>
+                        <tr>
+                          <td>3, </td>
+                          <td>2016-2019</td>
+                          <td>SMA N 1 WAMENA </td>
+                          <td> Siswa SMA </td>
+                        </tr>
+                        <tr>
+                            <td>4. </td>
+                            <td>IT PLN Jakarta 2020</td>
+                            <td>MOS (word 2016) </td>
+                            <td> Peserta  </td>
+                          </tr>
+                          <tr>
+                            <td>5. </td>
+                            <td>IT PLN Jakarta 2020</td>
+                            <td>LKMM Pra-TD  </td>
+                            <td>Peserta</td>
+                          </tr>
+                          <tr>
+                            <td>6. </td>
+                            <td>IT PLN Jakarta 2020</td>
+                            <td>Forum Tunas Muda (FORTUDA #5)  </td>
+                            <td>Peserta  </td>
+                          </tr>
+                          <tr>
+                            <td>7. </td>
+                            <td>IT PLN Jakarta 2020</td>
+                            <td>LDKM BIG DATA 2020 </td>
+                            <td> Peserta </td>
+                          </tr>
+                      </tbody>
+                    </table>
+                  </div>
+              </div>
+        </div>
+    </div>
+
+        
+    </div>
+    <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous">
+    </script>
+</body>
+</html>
